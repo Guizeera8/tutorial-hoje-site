@@ -1,0 +1,12 @@
+.containerDiv {
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+  display: table;
+}
+
+@media screen and (max-width: 767px) {
+  .containerDiv {
+    max-width: 100%;
+  }
+}

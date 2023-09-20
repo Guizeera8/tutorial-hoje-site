@@ -1,0 +1,29 @@
+@keyframes pulseButtonAnimation {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 25px rgba(90, 153, 212, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
+}
+  
+.button_pay_large_player_external {
+  background-color: rgb(14, 165, 233);
+  border-color: rgb(14, 165, 233);
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(14, 165, 233) 0px 0px 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 13px 35px;
+  animation-name: pulseButtonAnimation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  margin-top: 50px;
+  justify-content: center;
+}
