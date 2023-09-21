@@ -5,7 +5,7 @@ export const publi: Publi[] = [
         type: "image",
         name: "Ifood",
         avaliations: 3.200,
-        logo: "/logos/Ifood.png",
+        logo: "/logos/ifood.png",
         image: "https://images.converteai.net/673307d1-3279-4b4f-a674-d0255c469790/players/650a0e2317c7360009d17cbf/thumbnail.jpg",
         video: "650a0e2317c7360009d17cbf"
     },
